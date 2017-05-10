@@ -65,9 +65,10 @@ a:hover {
   background-color: rgb(240, 240, 240);
   color: rgb(180, 180, 180);
   box-shadow: 0px 3px 3px 0px;
-  padding: 10px 40px;
-  margin: 20px 0px;
+  padding: 10px 20px;
+  margin: 10px 10px;
   text-align: center;
+  min-height: 770px;
 }
 
 td {
@@ -86,27 +87,36 @@ td {
   text-align: justify;
 }
 
-#sidebar {
-  position: fixed;
-  width: 100px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  background-color: rgba(100, 100, 100, 0.5);
+#wrapper {
+  padding: 20px;
+  width: 1000px;
+  margin: 20px auto;
+  height: 930px;
+  background: rgba(175, 175, 175, 0.1);
 }
 
-#sidebar > ul{
-  list-style-type: none;
-  width: 100px;
-  padding-left: 0px;
+#left {
+  width: 40%;
+  float: left;
+}
+
+#right {
+  width: 60%;
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+#footer {
+  min-height: 0;
+}
+
+#party_parrot {
   text-align: center;
 }
 
-#sidebar > ul > li{
-  font-size: 50;
-  margin: 30 0;
-}
-
-#page-content {
-  margin-left: 300px;
+.table-text-center {
+  vertical-align: top;
 }

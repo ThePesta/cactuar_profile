@@ -14,27 +14,8 @@
   </head>
   <body>
     <!-- Your content -->
-    <div id="sidebar">
-      <ul>
-        <li>
-          <a href="#summary">
-            <i class="fa fa-info" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#media">
-            <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#locations">
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div id="page_content">
-      <div class="container">
+    <div id="wrapper">
+      <div id="left">
         <div class="card" id="summary">
           <div class="text-align-center">
             <img src=images/cactuar.png>
@@ -45,11 +26,48 @@
           <p id="description">The Cactuar (サボテンダー, Sabotendā?, lit. Sabotender) is a recurring enemy from the Final Fantasy series as well as appearing as a summon. Cactuars are little cacti, typically depicted having stiff arms and legs, three black holes for their faces, representing two eyes and an oblong mouth, and three reddish quills at the top of their heads.</p>
           <div class="text-align-center">
             <a href="#" target="_blank">
-            <button type="button">Weeeeeee</button>
-          </a>
+              <button type="button">Weeeeeee</button>
+            </a>
           </div>
         </div>
-        <div class="card" id="media">
+      </div>
+
+      <div id="right">
+        <div class="card">
+          <h2>Possible Sighting Locations</h2>
+          <table>
+            <tr>
+              <td>
+                <img src=images/desert.jpg>
+              </td>
+              <td class="table-text-center">
+                <h3>Desert</h3>
+                <p>Desert description placeholder</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src=images/pot.jpg>
+              </td>
+              <td class="table-text-center">
+                <h3>Fertilized Soil</h3>
+                <p>Pot description placeholder</p>
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <img src=images/parrot.gif>
+              </td>
+              <td class="table-text-center">
+                <h3>Party Parrot</h3>
+                <p>idk what to write here ¯\_(ツ)_/¯</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="clear"></div>
+        <div class="card" id="footer">
           <ul class="list-inline">
             <li>
               <a href="#" target="_blank">
@@ -71,39 +89,6 @@
             </li>
           </ul>
         </div>
-        <div class="card" id="locations">
-          <h2>Possible Sighting Locations</h2>
-          <table>
-            <tr>
-              <td>
-                <img src=images/desert.jpg>
-              </td>
-              <td>
-                <h3>Desert</h3>
-                <p>Desert description placeholder</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src=images/pot.jpg>
-              </td>
-              <td>
-                <h3>Fertilized Soil</h3>
-                <p>Pot description placeholder</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src=images/parrot.gif>
-              </td>
-              <td>
-                <h3>Party Parrot</h3>
-                <p>idk what to write here ¯\_(ツ)_/¯</p>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
     </div>
   </body>
 </html>
