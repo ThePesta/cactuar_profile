@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(232, 232, 210);
+}
+
+h1 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 40;
+  color: rgb(0, 128, 32);
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(80, 80, 80)
+}
+
+h2 {
+  font-size: 30;
+  text-align: center
+}
+
+h3 {
+  font-size: 20;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+button {
+  color: rgb(240,240,240);
+  font-size: 30;
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(8, 173, 49);
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px 10px;
+}
+
+button:hover {
+  background-color: rgb(0, 128, 32);
+}
+
+p {
+  font-family: sans-serif;
+  color: rgb(80, 80, 80)
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+a:hover {
+  color: rgb(0, 128, 32);
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgb(240, 240, 240);
+  color: rgb(180, 180, 180);
+  box-shadow: 0px 3px 3px 0px;
+  padding: 10px 40px;
+  margin: 20px 0px;
+  border-radius: 5%;
+  text-align: center;
+}
+
+td {
+  padding: 10px 10px;
+}
+
+.list-inline > li {
+  font-size: 25;
+  text-align: center;
+  display: inline-block;
+  padding-left: 0px;
+  padding-right: 50px;
+}
+
+#description {
+  text-align: justify;
+}
