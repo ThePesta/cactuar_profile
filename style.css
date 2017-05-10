@@ -86,3 +86,28 @@ td {
 #description {
   text-align: justify;
 }
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+#sidebar > ul{
+  list-style-type: none;
+  width: 100px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+#sidebar > ul > li{
+  font-size: 50;
+  margin: 30 0;
+}
+
+#page-content {
+  margin-left: 300px;
+}
